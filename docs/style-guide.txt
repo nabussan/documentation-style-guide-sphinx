@@ -21,7 +21,8 @@ Filenames
 
 Use only lowercase alphanumeric characters and ``-`` (minus) symbol.
 
-Suffix filenames with the ``.txt`` extension.
+Suffix filenames (including the index file) with the ``.txt`` extension. In the ''conf.py'' config file, 
+set ''source_suffix = '.txt''', accordingly. 
 
 .. note::
 
@@ -87,7 +88,7 @@ line long.
 Line length
 ***********
 
-Limit all lines to a maximum of 79 characters.
+Limit all lines to a maximum of 79 characters. <!-- why is it necessary or advisable? -->
 
 
 ********
@@ -142,7 +143,8 @@ As an example:
 If you need more than heading level 4 (i.e. H5 or H6), then you should consider
 creating a new document.
 
-There should be only one H1 in a document.
+To be able to resuse a topic in different projects, we recommend to store each topic in a 
+separate txt file and use only one H1 in each file.
 
 .. note::
 
